@@ -17,10 +17,6 @@ function run {
 for dir in blood brain ganglian testis; do
     for dir2 in CG_H CG_Y HS; do
         for dir3 in Disease GO KEGG; do    
-            #run  "Disease" "disease"
-            #run "GO" "biological process"
-            #run "GO" "cellular component"
-            #run "GO" "molecular function"
             run "KEGG" "KEGG pathway"
                               
         done
